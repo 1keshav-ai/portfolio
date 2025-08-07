@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f0f4f8;
+            color: #1a1a1a;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: #0d47a1;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: #64b5f6;
+            font-size: 1.04rem;
+        }
+
+        .main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .left {
+            color: white;
+            background-color: #2196f3;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+
+
+        .leftSection {
+
+            font-size: 1rem;
+            margin: 70px 0;
+        }
+
+        .left:hover {
+            background-color: #64b5f6;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(11, 11, 216);
+        }
+
+        h2,
+        .purple,
+        #element {
+            color: #0d47a1;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(11, 11, 216);
+        }
+
+        .btn {
+            background-color: #2196f3;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #64b5f6;
+        }
+
+        .about-section {
+            background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+            padding: 60px 80px;
+            border-radius: 8px;
+        }
+        .services-section {
+  padding: 60px 80px;
+  background: #e3f2fd;
+  border-radius: 8px;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.service-card {
+  background-color: white;
+  border: 1px solid #cfd8dc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-card h3 {
+  color: #0d47a1;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><b>SERVICES</b></div>
+            <div right="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="achievment.html">Achievment</a></li>
+                    <li><a href="contact me .html">contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="services-section">
+  <h2 style="text-align: center; margin-bottom: 30px; color: #0d47a1;">Our Services</h2>
+  <div class="services-container">
+    <div class="service-card">
+      <h3>Web Development</h3>
+      <p> We offer end-to-end Web Development services that turn your ideas into responsive, user-friendly, 
+    and performance-driven websites. From static pages to dynamic web applications, our team builds 
+    secure, scalable, and modern websites using HTML, CSS, JavaScript, PHP, and MySQL. Whether it's 
+    an e-commerce platform, portfolio, or business site, we ensure your digital presence is fast, accessible, 
+    and tailored to your brand’s needs.</p>
+    </div>
+    <div class="service-card">
+      <h3>Software Testing</h3>
+      <p>Our Software Testing services ensure that your application functions flawlessly across all platforms and devices. 
+    We specialize in both manual and automated testing techniques, covering functionality, usability, performance, 
+    security, and compatibility. Our testing process is designed to identify bugs early, reduce risk, and guarantee 
+    a smooth user experience. Whether it’s a web app, mobile app, or enterprise system, we help you deliver 
+    quality software with confidence.</p>
+    </div>
+    <div class="service-card">
+      <h3>Web Designer</h3>
+      <p>Our Web Designing services focus on creating visually stunning, user-friendly, and intuitive designs 
+    that reflect your brand identity. We specialize in responsive layouts, clean UI/UX, and modern design trends 
+    to ensure your website not only looks great but also delivers an exceptional experience across all devices. 
+    From wireframes to final visuals, we prioritize usability, accessibility, and aesthetics.</p>
+    </div>
+    <div class="service-card">
+      <h3>Video editor</h3>
+      <p>Our Video Editing services transform raw footage into polished, engaging content that captures attention 
+    and tells your story effectively. We specialize in editing promotional videos, social media content, 
+    interviews, tutorials, and more. With smooth transitions, color correction, audio enhancement, and 
+    motion graphics, we ensure your videos are impactful and professional—perfect for YouTube, Instagram, 
+    presentations, or corporate use.</p>
+    </div>
+  </div>
+</section>
+
+</body>
+
+</html>

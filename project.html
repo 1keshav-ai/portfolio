@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f0f4f8;
+            color: #1a1a1a;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: #0d47a1;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: #64b5f6;
+            font-size: 1.04rem;
+        }
+
+        .main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .left {
+            color: white;
+            background-color: #2196f3;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+
+
+        .leftSection {
+
+            font-size: 1rem;
+            margin: 70px 0;
+        }
+
+        .left:hover {
+            background-color: #64b5f6;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(11, 11, 216);
+        }
+
+        h2,
+        .purple,
+        #element {
+            color: #0d47a1;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(11, 11, 216);
+        }
+
+        .btn {
+            background-color: #2196f3;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #64b5f6;
+        }
+
+        .about-section {
+            background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+            padding: 60px 80px;
+            border-radius: 8px;
+        }
+        .projects-section {
+  padding: 60px 80px;
+  background-color: #e3f2fd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.projects-section h2 {
+  color: #0d47a1;
+  margin-bottom: 40px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 25px;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  color: #0d47a1;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.project-link {
+  color: #2196f3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><b>PROJECT</b></div>
+            <div right="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="achievment.html">Achievment</a></li>
+                    <li><a href="contact me .html">contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+  <section class="projects-section">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+
+      <div class="project-card">
+        <h3>SellEase Website Clone</h3>
+        <p>
+          A full-stack online marketplace web application developed using HTML, CSS, JavaScript, PHP, and MySQL. The platform allows users to register, log in, list products for sale, and browse items to purchase.
+
+        </p>
+        
+        </p>
+       
+      </div>
+
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>
+          A personal responsive portfolio website designed using HTML, CSS, and Bootstrap to showcase skills, projects, and achievements. Includes sections like About Me, Contact, Services, and Resume.
+        </p>
+       
+      </div>
+
+      <div class="project-card">
+        <h3>The To-Do List Application</h3>
+        <p>
+          The To-Do List Application allows users to create, read, update, and delete tasks. Users can manage their tasks efficiently, marking them as complete or incomplete.
+        </p>
+        
+      </div>
+
+    </div>
+  </section>
+</main>
+
+</body>
+
+</html>
